@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container border espaco-container">
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/download.svg" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/download (1).svg" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/download (2).svg" alt="Terceiro Slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+    <br>
+
+    <form method="POST" >
+        <div class="form-group">
+            <label for="usuario">
+                Usuário:
+            </label>
+            <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="senha">
+                Senha:
+            </label>
+            <input type="password" name="senha" id="senha" class="form-control" />
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </div>
+    </form>
+    </div>
+    <br>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/js/dist/util.js"></script>
+</body>
+
+</html>
